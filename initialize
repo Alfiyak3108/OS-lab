@@ -1,0 +1,14 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+ 
+int main() {
+    vector<int>myVector={10,20,30}
+    cout <<"Elements of vector: ";
+    for(int i=0;i<myVector.size();++i){
+      cout <<myVector[i]<<"" ; 
+    }
+    cout <<endl ;
+    return 0;
+}
